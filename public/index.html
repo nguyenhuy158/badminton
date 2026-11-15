@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cầu lông</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏸</text></svg>">
+<style>
+  :root {
+    --bg: #f6f7f4; --card: #ffffff; --text: #1d211c; --muted: #6b7268; --line: #e4e7e1;
+    --accent: #1baf7a; --accent-soft: #e3f5ec; --neg: #d14b3d; --warn: #c98a12;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #121512; --card: #1b1f1b; --text: #e9ece7; --muted: #9aa197; --line: #2a302a;
+      --accent: #34c98f; --accent-soft: #173326; --neg: #ef6f61; --warn: #e2a93a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 880px; margin: 0 auto; padding: 20px 16px 64px; }
+  h1 { font-size: 28px; margin: 0; letter-spacing: -0.02em; }
+  h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 32px 0 12px; }
+  .sub { color: var(--muted); margin-top: 4px; }
+  .tabs { display: flex; gap: 8px; margin-bottom: 20px; flex-wrap: wrap; }
+  .tabs button { font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--text);
+    padding: 6px 14px; border-radius: 99px; cursor: pointer; }
+  .tabs button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; margin-top: 24px; }
+  .tile, .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px; }
+  .tile .n { font-size: 30px; font-weight: 700; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+  .tile .l { color: var(--muted); font-size: 13px; }
+  .tile.hl { background: var(--accent-soft); border-color: transparent; }
+  .tile.hl .n { color: var(--accent); }
+  .bars { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; gap: 12px; align-items: end; height: 140px; }
+  .bar { display: flex; flex-direction: column; align-items: center; gap: 6px; height: 100%; justify-content: flex-end; }
+  .bar i { display: block; width: 100%; max-width: 56px; background: var(--accent); border-radius: 8px 8px 4px 4px; }
+  .bar b { font-variant-numeric: tabular-nums; }
+  .bar span { color: var(--muted); font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 9px 8px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 500; font-size: 13px; }
+  td.num, th.num { text-align: right; }
+  tr:last-child td { border-bottom: 0; }
+  .q { color: var(--muted); }
+  .pos { color: var(--accent); } .neg { color: var(--neg); }
+  .total td { font-weight: 700; border-top: 2px solid var(--line); }
+  .wrap { overflow-x: auto; }
+  .pill { display: inline-block; padding: 2px 10px; border-radius: 99px; background: var(--accent-soft); color: var(--accent); font-size: 13px; margin: 0 6px 6px 0; }
+  .warn { color: var(--warn); }
+  .note { color: var(--muted); font-size: 13px; margin-top: 8px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .hbar { display: grid; grid-template-columns: 120px 1fr 48px; gap: 8px; align-items: center; margin: 6px 0; }
+  .hbar i { display: block; height: 10px; border-radius: 99px; background: var(--accent); }
+  .hbar span:last-child { text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
+  ul { margin: 0; padding-left: 18px; }
+  #sessions td:nth-child(2) { white-space: nowrap; }
+  @media (max-width: 640px) {
+    .grid2 { grid-template-columns: 1fr; } h1 { font-size: 24px; }
+    .tiles { grid-template-columns: 1fr 1fr; } .tile .n { font-size: 24px; }
+    th, td { padding: 8px 4px; font-size: 14px; }
+    .hbar { grid-template-columns: 96px 1fr 40px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="tabs" id="tabs"></div>
+  <div id="app"></div>
+</main>
+<script>
+const GROUPS = [
+  { id: "hem-long-thu", name: "Hẻm Lông Thủ" },
+  { id: "long-pick-thu", name: "Lông pick thủ" },
+];
+const vnd = n => n == null ? "–" : (n < 0 ? "−" : "") + Math.abs(n).toLocaleString("vi-VN") + "đ";
+const k = n => n == null ? "–" : Math.abs(n) >= 1e6 ? (n / 1e6).toLocaleString("vi-VN", { maximumFractionDigits: 2 }) + "tr" : Math.round(n / 1000) + "k";
+const ddmm = iso => iso.slice(8, 10) + "/" + iso.slice(5, 7);
+const dow = iso => ["CN", "T2", "T3", "T4", "T5", "T6", "T7"][new Date(iso + "T00:00:00").getDay()];
+const today = new Date().toISOString().slice(0, 10);
+const avg = xs => xs.length ? xs.reduce((a, b) => a + b, 0) / xs.length : null;
+
+function tile(n, l, hl) { return `<div class="tile${hl ? " hl" : ""}"><div class="n">${n}</div><div class="l">${l}</div></div>`; }
+
+function render(d) {
+  const f = d.fund;
+  const next = (d.upcoming || []).find(x => x >= today);
+  const paid = d.sessions.map(s => s.each).filter(x => x);
+  const byMonth = {};
+  d.sessions.forEach(s => { const m = +s.date.slice(5, 7); byMonth[m] = (byMonth[m] || 0) + 1; });
+  const max = Math.max(...Object.values(byMonth));
+  const topMax = d.top ? d.top[0][1] : 0;
+
+  document.title = d.group;
+  document.getElementById("app").innerHTML = `
+  <h1>🏸 ${d.group}</h1>
+  <div class="sub">Cập nhật ${d.updated} · ${f ? f.court : d.court}</div>
+  <div class="tiles">
+    ${tile(d.sessions.length, "buổi đã đánh", true)}
+    ${f ? tile(k(f.confirmed), "quỹ chốt " + f.confirmedDate.slice(0, 5)) : tile(k(avg(paid)), "trung bình/người/buổi")}
+    ${f ? tile(k(f.report[0].amount), "tổng đã góp") : tile(d.sessions.at(-1) ? dow(d.sessions.at(-1).date) + " " + ddmm(d.sessions.at(-1).date) : "–", "buổi gần nhất")}
+    ${tile(next ? dow(next) + " " + ddmm(next) : "–", "buổi tới")}
+  </div>
+
+  <h2>Số buổi theo tháng</h2>
+  <div class="card"><div class="bars">${Object.entries(byMonth).map(([m, n]) =>
+    `<div class="bar"><b>${n}</b><i style="height:${n / max * 90}px"></i><span>Tháng ${m}</span></div>`).join("")}</div></div>
+
+  <h2>Các buổi đánh</h2>
+  <div class="card wrap"><table id="sessions">
+    <thead><tr><th>#</th><th>Ngày</th><th>Sân</th><th class="num">Người</th><th class="num">Tổng chi</th><th class="num">/người</th></tr></thead>
+    <tbody>${d.sessions.map((s, i) => `<tr><td class="q">${i + 1}</td><td>${dow(s.date)} ${ddmm(s.date)}</td><td>${s.court}</td>
+      <td class="num">${s.people ?? "–"}</td><td class="num">${k(s.total)}</td><td class="num">${k(s.each)}</td></tr>`).join("")}</tbody>
+  </table></div>
+  <div class="note">${d.note || ""} Dấu "–" là chat không ghi số.</div>
+  ${d.cancelled ? `<div class="note">Huỷ: ${d.cancelled.join(" · ")}</div>` : ""}
+
+  ${d.fundSessions ? `
+  <h2>Thu chi từng buổi</h2>
+  <div class="card wrap"><table>
+    <thead><tr><th>Ngày</th><th class="num">Sân</th><th class="num">Cầu</th><th class="num">Nước</th><th class="num">Chi buổi</th><th class="num">Vãng lai</th><th>Người vãng lai</th></tr></thead>
+    <tbody>${(() => {
+      const rows = [], sum = { court: 0, shuttle: 0, water: 0, cost: 0, dropIn: 0 };
+      const flush = m => rows.push(`<tr class="total"><td>Cộng T${m}</td><td class="num">${k(sum.court)}</td><td class="num">${k(sum.shuttle)}</td><td class="num">${k(sum.water)}</td><td class="num neg">${k(sum.cost)}</td><td class="num pos">${k(sum.dropIn)}</td><td></td></tr>`);
+      let month = null;
+      d.fundSessions.forEach(s => {
+        const m = +s.date.slice(5, 7);
+        if (month && m !== month) { flush(month); Object.keys(sum).forEach(x => sum[x] = 0); }
+        month = m;
+        const played = s.dropIn != null, cost = s.court + (s.shuttle || 0) + (s.water || 0);
+        sum.court += s.court; sum.shuttle += s.shuttle || 0; sum.water += s.water || 0; sum.cost += cost; sum.dropIn += s.dropIn || 0;
+        rows.push(`<tr${played ? "" : ' class="q"'}><td>${dow(s.date)} ${ddmm(s.date)}</td><td class="num">${k(s.court)}</td><td class="num">${k(s.shuttle)}</td><td class="num">${k(s.water)}</td><td class="num">${k(cost)}</td><td class="num">${k(s.dropIn)}</td><td>${s.who}</td></tr>`);
+      });
+      flush(month);
+      return rows.join("");
+    })()}</tbody>
+  </table></div>
+  <div class="note">${d.fundSessionsNote || ""}</div>` : ""}
+
+  ${f ? `
+  <h2>Quỹ</h2>
+  <div class="grid2">
+    <div class="card"><b>Tổng kết tới ${f.confirmedDate}</b><table><tbody>
+      ${f.report.map(r => `<tr><td>${r.label}</td><td class="num ${r.amount < 0 ? "neg" : "pos"}">${vnd(r.amount)}</td></tr>`).join("")}
+      <tr class="total"><td>Quỹ còn</td><td class="num">${vnd(f.confirmed)}</td></tr></tbody></table></div>
+    <div class="card"><b>Giao dịch gần đây</b><table><tbody>
+      ${f.ledger.map(r => `<tr><td class="q">${r.date}</td><td>${r.label}</td><td class="num ${r.amount == null ? "q" : r.amount < 0 ? "neg" : "pos"}">${r.amount == null ? "?" : vnd(r.amount)}</td></tr>`).join("")}
+    </tbody></table></div>
+  </div>
+  <div class="note">Nguồn: ${f.source}</div>` : ""}
+
+  ${d.top ? `
+  <h2>Ai nhắn nhiều nhất</h2>
+  <div class="card">${d.top.map(([n, c]) =>
+    `<div class="hbar"><span>${n}</span><i style="width:${c / topMax * 100}%"></i><span>${c}</span></div>`).join("")}</div>` : ""}
+
+  ${d.pickleball ? `<h2>Pickleball (${d.pickleball.length} buổi)</h2><div class="card"><ul>${d.pickleball.map(t => `<li>${t}</li>`).join("")}</ul></div>` : ""}
+
+  ${d.trips ? `<h2>Đi chơi chung</h2><div class="card"><ul>${d.trips.map(t => `<li>${t}</li>`).join("")}</ul></div>` : ""}
+
+  ${(d.upcoming && d.upcoming.length) || f ? `
+  <h2>Sắp tới</h2>
+  <div class="card">
+    <div>${(d.upcoming || []).map(x => `<span class="pill">${dow(x)} ${ddmm(x)}</span>`).join("")}</div>
+    ${f ? `<div>⏰ Hạn đặt sân tháng sau: <b class="warn">${f.deadline}</b></div>` : ""}
+  </div>` : ""}`;
+}
+
+function show(id) {
+  location.hash = id;
+  document.querySelectorAll("#tabs button").forEach(b => b.setAttribute("aria-pressed", b.dataset.id === id));
+  fetch(`data/${id}.json`).then(r => r.json()).then(render);
+}
+
+document.getElementById("tabs").innerHTML = GROUPS.map(g => `<button data-id="${g.id}">${g.name}</button>`).join("");
+document.getElementById("tabs").onclick = e => e.target.dataset.id && show(e.target.dataset.id);
+show(GROUPS.some(g => g.id === location.hash.slice(1)) ? location.hash.slice(1) : GROUPS[0].id);
+</script>
+</body>
+</html>

@@ -1,0 +1,5643 @@
+{
+  "scans": [
+    {
+      "area": "quan-2",
+      "district": "769",
+      "now": "2026-10-28T15:00:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Thứ 2–6 · 18:00–20:00, ưu tiên 2 giờ, nếu không có thì 18:00–19:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-10-28T15:00:00+07:00",
+        "from_date": "2026-10-28",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 12,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "28/10/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-28",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "30/10/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-30",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "28/10/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-28",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "30/10/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-30",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 12
+          }
+        ],
+        "origin_name": "company"
+      }
+    },
+    {
+      "area": "quan-2",
+      "district": "769",
+      "now": "2026-10-28T20:15:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Thứ 2–6 · 18:00–20:00, ưu tiên 2 giờ, nếu không có thì 18:00–19:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-10-28T20:15:00+07:00",
+        "from_date": "2026-10-28",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 11,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "30/10/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-30",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "30/10/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-30",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 11
+          }
+        ],
+        "origin_name": "company"
+      }
+    },
+    {
+      "area": "quan-2",
+      "district": "769",
+      "now": "2026-11-01T10:00:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Thứ 2–6 · 18:00–20:00, ưu tiên 2 giờ, nếu không có thì 18:00–19:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-11-01T10:00:00+07:00",
+        "from_date": "2026-11-01",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 10,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "18:00–20:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1080,
+            "end": 1200,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "18:00–20:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1080,
+                "end": 1200,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 10
+          }
+        ],
+        "origin_name": "company"
+      }
+    },
+    {
+      "area": "tan-binh",
+      "district": "766",
+      "now": "2026-10-28T15:00:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Cả tuần · 2 giờ liên tục trong 19:00–23:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-10-28T15:00:00+07:00",
+        "from_date": "2026-10-28",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 19,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "28/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-28",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "29/10/2026",
+            "time_label": "20:00–22:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-29",
+            "start": 1200,
+            "end": 1320,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "30/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-30",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "31/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-31",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "01/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-01",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "07/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-07",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "08/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-08",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "14/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-14",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "15/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-15",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "28/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-28",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "29/10/2026",
+                "time_label": "20:00–22:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-29",
+                "start": 1200,
+                "end": 1320,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "30/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-30",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "31/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-31",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "01/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-01",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "07/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-07",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "08/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-08",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "14/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-14",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "15/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-15",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 19
+          }
+        ],
+        "origin_name": "home"
+      }
+    },
+    {
+      "area": "tan-binh",
+      "district": "766",
+      "now": "2026-10-28T20:15:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Cả tuần · 2 giờ liên tục trong 19:00–23:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-10-28T20:15:00+07:00",
+        "from_date": "2026-10-28",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 19,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "28/10/2026",
+            "time_label": "20:30–22:30",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-28",
+            "start": 1230,
+            "end": 1350,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "29/10/2026",
+            "time_label": "20:00–22:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-29",
+            "start": 1200,
+            "end": 1320,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "30/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-30",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "31/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-31",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "01/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-01",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "07/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-07",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "08/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-08",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "14/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-14",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "15/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-15",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "28/10/2026",
+                "time_label": "20:30–22:30",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-28",
+                "start": 1230,
+                "end": 1350,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "29/10/2026",
+                "time_label": "20:00–22:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-29",
+                "start": 1200,
+                "end": 1320,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "30/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-30",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "31/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-31",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "01/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-01",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "07/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-07",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "08/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-08",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "14/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-14",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "15/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-15",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 19
+          }
+        ],
+        "origin_name": "home"
+      }
+    },
+    {
+      "area": "tan-binh",
+      "district": "766",
+      "now": "2026-11-01T10:00:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Cả tuần · 2 giờ liên tục trong 19:00–23:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-11-01T10:00:00+07:00",
+        "from_date": "2026-11-01",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 15,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "01/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-01",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "07/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-07",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "08/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-08",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "14/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-14",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "15/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-15",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "01/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-01",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "07/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-07",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "08/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-08",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "14/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-14",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "15/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-15",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 15
+          }
+        ],
+        "origin_name": "home"
+      }
+    },
+    {
+      "area": "tan-phu",
+      "district": "767",
+      "now": "2026-10-28T15:00:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Cả tuần · 2 giờ liên tục trong 19:00–23:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-10-28T15:00:00+07:00",
+        "from_date": "2026-10-28",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 19,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "28/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-28",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "29/10/2026",
+            "time_label": "20:00–22:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-29",
+            "start": 1200,
+            "end": 1320,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "30/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-30",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "31/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-31",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "01/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-01",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "07/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-07",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "08/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-08",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "14/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-14",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "15/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-15",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "28/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-28",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "29/10/2026",
+                "time_label": "20:00–22:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-29",
+                "start": 1200,
+                "end": 1320,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "30/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-30",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "31/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-31",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "01/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-01",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "07/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-07",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "08/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-08",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "14/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-14",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "15/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-15",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 19
+          }
+        ],
+        "origin_name": "Tân Phú"
+      }
+    },
+    {
+      "area": "tan-phu",
+      "district": "767",
+      "now": "2026-10-28T20:15:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Cả tuần · 2 giờ liên tục trong 19:00–23:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-10-28T20:15:00+07:00",
+        "from_date": "2026-10-28",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 19,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "28/10/2026",
+            "time_label": "20:30–22:30",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-28",
+            "start": 1230,
+            "end": 1350,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "29/10/2026",
+            "time_label": "20:00–22:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-29",
+            "start": 1200,
+            "end": 1320,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "30/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-30",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "31/10/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-10-31",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "01/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-01",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "07/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-07",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "08/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-08",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "14/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-14",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "15/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-15",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "28/10/2026",
+                "time_label": "20:30–22:30",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-28",
+                "start": 1230,
+                "end": 1350,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "29/10/2026",
+                "time_label": "20:00–22:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-29",
+                "start": 1200,
+                "end": 1320,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "30/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-30",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "31/10/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-10-31",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "01/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-01",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "07/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-07",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "08/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-08",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "14/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-14",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "15/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-15",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 19
+          }
+        ],
+        "origin_name": "Tân Phú"
+      }
+    },
+    {
+      "area": "tan-phu",
+      "district": "767",
+      "now": "2026-11-01T10:00:00+07:00",
+      "result": {
+        "status": "ok",
+        "criteria": "Cả tuần · 2 giờ liên tục trong 19:00–23:00 · 1 sân",
+        "message": "Đã quét 1 sân yêu thích.",
+        "updated_at": "2026-11-01T10:00:00+07:00",
+        "from_date": "2026-11-01",
+        "through_date": "2026-11-15",
+        "venues_scanned": 1,
+        "scanned_venues": [
+          {
+            "id": "venue",
+            "name": "Sân thử",
+            "url": "https://datlich.alobo.vn/san/venue"
+          }
+        ],
+        "match_count": 15,
+        "matches": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "01/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-01",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "02/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-02",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "03/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-03",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "04/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-04",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "05/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-05",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "06/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-06",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "07/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-07",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "08/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-08",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "09/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-09",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "10/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-10",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "11/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-11",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "12/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-12",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "13/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-13",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "14/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-14",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          },
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "map_url": "",
+            "distance_m": null,
+            "date_label": "15/11/2026",
+            "time_label": "19:00–21:00",
+            "url": "https://datlich.alobo.vn/",
+            "branch_id": "venue",
+            "court_id": "court",
+            "date": "2026-11-15",
+            "start": 1140,
+            "end": 1260,
+            "total_price": 100000
+          }
+        ],
+        "court_groups": [
+          {
+            "branch_name": "Sân thử",
+            "court_name": "Sân 1",
+            "url": "https://datlich.alobo.vn/",
+            "map_url": "",
+            "distance_m": null,
+            "matches": [
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "01/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-01",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "02/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-02",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "03/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-03",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "04/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-04",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "05/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-05",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "06/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-06",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "07/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-07",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "08/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-08",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "09/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-09",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "10/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-10",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "11/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-11",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "12/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-12",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "13/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-13",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "14/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-14",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              },
+              {
+                "branch_name": "Sân thử",
+                "court_name": "Sân 1",
+                "map_url": "",
+                "distance_m": null,
+                "date_label": "15/11/2026",
+                "time_label": "19:00–21:00",
+                "url": "https://datlich.alobo.vn/",
+                "branch_id": "venue",
+                "court_id": "court",
+                "date": "2026-11-15",
+                "start": 1140,
+                "end": 1260,
+                "total_price": 100000
+              }
+            ],
+            "match_count": 15
+          }
+        ],
+        "origin_name": "Tân Phú"
+      }
+    },
+    {
+      "area": "quan-2",
+      "district": "766",
+      "now": "2026-10-28T15:00:00+07:00",
+      "result": { "error": "No favorite venue found in the requested area" }
+    }
+  ],
+  "prices": [
+    {
+      "name": "pricing",
+      "day": "2026-11-08",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 220000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 220000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 110000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-08",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 110000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 27500
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-08",
+      "start": 600,
+      "end": 600,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-09",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 210000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 240000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 120000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-09",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 120000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": 30000
+    },
+    {
+      "name": "pricing",
+      "day": "2026-11-09",
+      "start": 600,
+      "end": 600,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 50000,
+          "specialPrice": [
+            { "unit": "h", "time": "16:00-18:00", "priceOneTime": 90000 },
+            { "unit": "h", "time": "18:00-24:00", "priceOneTime": 120000 },
+            {
+              "unit": "h",
+              "time": "5:00-24:00",
+              "dateRangeWeek": "6-7",
+              "priceOneTime": 110000
+            }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-08",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 100000
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 100000
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 50000
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-08",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 50000
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 12500
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-08",
+      "start": 600,
+      "end": 600,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": null
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-09",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 100000
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 100000
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 50000
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-09",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 50000
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": 12500
+    },
+    {
+      "name": "plain",
+      "day": "2026-11-09",
+      "start": 600,
+      "end": 600,
+      "pricing": [
+        { "unit": "h", "normalPriceOneTime": 50000, "specialPrice": [] }
+      ],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-08",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-08",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-08",
+      "start": 600,
+      "end": 600,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-09",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-09",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "zero",
+      "day": "2026-11-09",
+      "start": 600,
+      "end": 600,
+      "pricing": [{ "unit": "h", "normalPriceOneTime": 0, "specialPrice": [] }],
+      "expected": null
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-08",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 140000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 200000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 40000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-08",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 40000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 10000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-08",
+      "start": 600,
+      "end": 600,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-09",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 140000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 200000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 40000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-09",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 40000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": 10000
+    },
+    {
+      "name": "mind",
+      "day": "2026-11-09",
+      "start": 600,
+      "end": 600,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            {
+              "unit": "h",
+              "time": "18:00-22:00",
+              "priceOneTime": 100000,
+              "minDuration": 120
+            }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-08",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-08",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-08",
+      "start": 600,
+      "end": 600,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-09",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-09",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "bad",
+      "day": "2026-11-09",
+      "start": 600,
+      "end": 600,
+      "pricing": [
+        {
+          "unit": "h",
+          "normalPriceOneTime": 40000,
+          "specialPrice": [
+            { "unit": "h", "time": "18:00-22:00", "price": 1, "extra": 1 }
+          ]
+        }
+      ],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-08",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-08",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-08",
+      "start": 600,
+      "end": 600,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-09",
+      "start": 1020,
+      "end": 1140,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1260,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1200,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-09",
+      "start": 1080,
+      "end": 1140,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1155,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "empty",
+      "day": "2026-11-09",
+      "start": 600,
+      "end": 600,
+      "pricing": [],
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-08",
+      "start": 1020,
+      "end": 1140,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1260,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1200,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-08",
+      "start": 1080,
+      "end": 1140,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-08",
+      "start": 1140,
+      "end": 1155,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-08",
+      "start": 600,
+      "end": 600,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-09",
+      "start": 1020,
+      "end": 1140,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1260,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1200,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-09",
+      "start": 1080,
+      "end": 1140,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-09",
+      "start": 1140,
+      "end": 1155,
+      "pricing": null,
+      "expected": null
+    },
+    {
+      "name": "none",
+      "day": "2026-11-09",
+      "start": 600,
+      "end": 600,
+      "pricing": null,
+      "expected": null
+    }
+  ]
+}

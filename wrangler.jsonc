@@ -1,0 +1,16 @@
+{
+  "name": "badminton",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "vars": { "SSO_ISSUER": "https://auth.huyab.cfd" },
+  "kv_namespaces": [
+    { "binding": "DATA", "id": "e1a6a44456704d6992218f00fe1cd6ca" }
+  ],
+  "workers_dev": false,
+  "routes": [{ "pattern": "badminton.huyab.cfd", "custom_domain": true }]
+}
