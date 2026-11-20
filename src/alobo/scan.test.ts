@@ -222,6 +222,92 @@ describe("slotTotalPrice", () => {
   });
 });
 
+describe("scan concurrency", () => {
+  it("starts the requests after get_branch together", async () => {
+    const inner = fakeAlobo("769");
+    let inFlight = 0;
+    let peak = 0;
+    const api: Api = {
+      async request(route, query) {
+        inFlight++;
+        peak = Math.max(peak, inFlight);
+        await new Promise((resolve) => setTimeout(resolve, 5));
+        try {
+          return await inner.request(route, query);
+        } finally {
+          inFlight--;
+        }
+      },
+    };
+    const now = new Date("2026-10-28T15:00:00+07:00");
+    const scan = await scanVenue(
+      api,
+      "quan-2",
+      "venue",
+      now,
+      origins,
+      {},
+      {
+        ...offline,
+        nowMs: now.getTime(),
+      },
+    );
+    expect(scan).not.toBeNull();
+    expect(peak).toBeGreaterThanOrEqual(4);
+  });
+
+  it("still fails when one parallel request fails", async () => {
+    const inner = fakeAlobo("769");
+    const api: Api = {
+      async request(route, query) {
+        if (route === "branch/get_lock_yards/venue")
+          throw new Error("locks down");
+        return inner.request(route, query);
+      },
+    };
+    const now = new Date("2026-10-28T15:00:00+07:00");
+    await expect(
+      scanVenue(
+        api,
+        "quan-2",
+        "venue",
+        now,
+        origins,
+        {},
+        {
+          ...offline,
+          nowMs: now.getTime(),
+        },
+      ),
+    ).rejects.toThrow("locks down");
+  });
+
+  it("ignores a failing get_core_types like before", async () => {
+    const inner = fakeAlobo("769");
+    const api: Api = {
+      async request(route, query) {
+        if (route === "branch/get_core_types/venue")
+          throw new Error("no prices");
+        return inner.request(route, query);
+      },
+    };
+    const now = new Date("2026-10-28T15:00:00+07:00");
+    const scan = await scanVenue(
+      api,
+      "quan-2",
+      "venue",
+      now,
+      origins,
+      {},
+      {
+        ...offline,
+        nowMs: now.getTime(),
+      },
+    );
+    expect(scan?.matches.length).toBeGreaterThan(0);
+  });
+});
+
 describe("matches the Python watcher", () => {
   it("returns the same document for every recorded scan", async () => {
     for (const item of fixtures.scans) {
