@@ -405,33 +405,37 @@ export async function scanVenue(
     name: String(branch.name),
     url: `https://datlich.alobo.vn/san/${enc(branchId)}`,
   };
-  const distance = await roadDistance(branch, area, origins, routes, deps);
-  const cores =
-    (asRecord(await api.request(`branch/get_cores/${enc(branchId)}`))
-      .cores as Json[]) ?? [];
-  let priceTypes: unknown = null;
-  try {
-    priceTypes = await api.request(`branch/get_core_types/${enc(branchId)}`);
-  } catch {
-    priceTypes = null;
-  }
-  const locks = (await api.request(
-    `branch/get_lock_yards/${enc(branchId)}`,
-  )) as Json[];
+  const [distance, coresResponse, priceTypes, locks, monthlyBookings] =
+    await Promise.all([
+      roadDistance(branch, area, origins, routes, deps),
+      api.request(`branch/get_cores/${enc(branchId)}`),
+      api
+        .request(`branch/get_core_types/${enc(branchId)}`)
+        .catch((): unknown => null),
+      api.request(`branch/get_lock_yards/${enc(branchId)}`) as Promise<Json[]>,
+      Promise.all(
+        monthlySpans(days).map(async ([month, first, last]) => {
+          const recurring = (await api.request("branch/get_schedule_bookings", {
+            branchId,
+            month,
+          })) as unknown[];
+          if (
+            recurring &&
+            (!Array.isArray(recurring) || recurring.length > 0)
+          ) {
+            throw new Error("Alobo recurring booking shape needs verification");
+          }
+          return (await api.request("branch/get_onetime_bookings", {
+            branchId,
+            startDate: first,
+            endDate: last,
+          })) as Json[];
+        }),
+      ),
+    ]);
+  const cores = (asRecord(coresResponse).cores as Json[]) ?? [];
   const bookingsByDay = new Map<string, Json[]>();
-  for (const [month, first, last] of monthlySpans(days)) {
-    const recurring = (await api.request("branch/get_schedule_bookings", {
-      branchId,
-      month,
-    })) as unknown[];
-    if (recurring && (!Array.isArray(recurring) || recurring.length > 0)) {
-      throw new Error("Alobo recurring booking shape needs verification");
-    }
-    const booked = (await api.request("branch/get_onetime_bookings", {
-      branchId,
-      startDate: first,
-      endDate: last,
-    })) as Json[];
+  for (const booked of monthlyBookings) {
     for (const booking of booked) {
       const bookingDays = new Set(
         ((booking.services as Json[] | undefined) ?? []).map(
