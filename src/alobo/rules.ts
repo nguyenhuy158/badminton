@@ -15,6 +15,9 @@ const QUAN_2_PREFERENCES: Interval[] = [
 const EVENING_OPENS = 1140;
 const EVENING_CLOSES = 1380;
 const MIN_BOOKING_MINUTES = 120;
+const AFTERNOON_OPENS = 780;
+const AFTERNOON_CLOSES = 1020;
+export const AFTERNOON_MINUTES = [60, 120] as const;
 
 type Local = { day: string; minutes: number };
 
@@ -62,6 +65,40 @@ function merge(intervals: readonly Interval[]): Interval[] {
   return merged;
 }
 
+function clip(
+  merged: readonly Interval[],
+  earliest: number,
+  latest: number,
+  shortest: number,
+): Interval[] {
+  const result: Interval[] = [];
+  for (const [a, b] of merged) {
+    const start = Math.max(a, earliest);
+    const end = Math.min(b, latest);
+    if (end - start >= shortest) result.push([start, end]);
+  }
+  return result;
+}
+
+export function afternoonWindows(
+  day: string,
+  intervals: readonly Interval[],
+  now: Date,
+): Interval[] {
+  const here = local(now);
+  if (!searchDates(now).includes(day)) return [];
+  const earliest =
+    day === here.day
+      ? Math.max(AFTERNOON_OPENS, here.minutes + 1)
+      : AFTERNOON_OPENS;
+  return clip(
+    merge(intervals),
+    earliest,
+    AFTERNOON_CLOSES,
+    Math.min(...AFTERNOON_MINUTES),
+  );
+}
+
 export function windows(
   area: Area,
   day: string,
@@ -92,13 +129,7 @@ export function windows(
       day === here.day
         ? Math.max(EVENING_OPENS, here.minutes + 1)
         : EVENING_OPENS;
-    const result: Interval[] = [];
-    for (const [a, b] of merged) {
-      const start = Math.max(a, earliest);
-      const end = Math.min(b, EVENING_CLOSES);
-      if (end - start >= MIN_BOOKING_MINUTES) result.push([start, end]);
-    }
-    return result;
+    return clip(merged, earliest, EVENING_CLOSES, MIN_BOOKING_MINUTES);
   }
   throw new Error("Unknown area");
 }

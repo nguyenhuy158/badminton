@@ -1,5 +1,7 @@
 import {
+  AFTERNOON_MINUTES,
   type Area,
+  afternoonWindows,
   type Interval,
   searchDates,
   weekday,
@@ -32,7 +34,11 @@ export type Match = {
 };
 
 export type ScannedVenue = { id: string; name: string; url: string };
-export type VenueScan = { venue: ScannedVenue; matches: Match[] } | null;
+export type VenueScan = {
+  venue: ScannedVenue;
+  matches: Match[];
+  afternoonMatches: Match[];
+} | null;
 
 type Json = Record<string, unknown>;
 
@@ -47,6 +53,8 @@ export const CRITERIA: Record<Area, string> = {
   "tan-binh": "Cả tuần · 2 giờ liên tục trong 19:00–23:00 · 1 sân",
   "tan-phu": "Cả tuần · 2 giờ liên tục trong 19:00–23:00 · 1 sân",
 };
+export const AFTERNOON_CRITERIA =
+  "Cả tuần · 1 hoặc 2 giờ liên tục trong 13:00–17:00 · 1 sân";
 
 const ALOBO_HOME = "https://datlich.alobo.vn/";
 const SLOT_STEP_MINUTES = 15;
@@ -385,6 +393,17 @@ function enc(value: string): string {
   return encodeURIComponent(value);
 }
 
+export function firstStart(
+  options: readonly Interval[],
+  length: number,
+): number | null {
+  for (const [from, to] of options) {
+    const candidate = Math.ceil(from / SLOT_STEP_MINUTES) * SLOT_STEP_MINUTES;
+    if (candidate + length <= to) return candidate;
+  }
+  return null;
+}
+
 export async function scanVenue(
   api: Api,
   area: Area,
@@ -451,7 +470,9 @@ export async function scanVenue(
     }
   }
   const matches: Match[] = [];
+  const afternoonMatches: Match[] = [];
   for (const day of days) {
+    const [year, month, date] = day.split("-");
     for (const core of cores) {
       if (core.status !== 1) continue;
       const occupied = occupancy(
@@ -463,28 +484,7 @@ export async function scanVenue(
       const available: Interval[] = [];
       for (const [start, end] of branchHours(branch))
         available.push(...freeIntervals(start, end, occupied));
-      const options = windows(area, day, available, now);
-      if (options.length === 0) continue;
-      let start: number;
-      let end: number;
-      if (area !== "quan-2") {
-        const candidates: number[] = [];
-        for (const [from, to] of options) {
-          for (
-            let slot = Math.floor((from + 14) / 15) * 15;
-            slot < to - 119;
-            slot += 15
-          )
-            candidates.push(slot);
-        }
-        if (candidates.length === 0) continue;
-        start = candidates[0];
-        end = start + TWO_HOURS;
-      } else {
-        [start, end] = options[0];
-      }
-      const [year, month, date] = day.split("-");
-      matches.push({
+      const match = (start: number, end: number): Match => ({
         branch_name: venue.name,
         court_name: String(core.name),
         map_url: mapUrl(branch),
@@ -499,9 +499,25 @@ export async function scanVenue(
         end,
         total_price: slotTotalPrice(priceTypes, day, start, end),
       });
+      if (area !== "quan-2") {
+        const afternoon = afternoonWindows(day, available, now);
+        for (const length of AFTERNOON_MINUTES) {
+          const start = firstStart(afternoon, length);
+          if (start !== null)
+            afternoonMatches.push(match(start, start + length));
+        }
+      }
+      const options = windows(area, day, available, now);
+      if (options.length === 0) continue;
+      if (area !== "quan-2") {
+        const start = firstStart(options, TWO_HOURS);
+        if (start !== null) matches.push(match(start, start + TWO_HOURS));
+      } else {
+        matches.push(match(...options[0]));
+      }
     }
   }
-  return { venue, matches };
+  return { venue, matches, afternoonMatches };
 }
 
 function isoLocal(now: Date): string {
@@ -522,6 +538,8 @@ export type AreaDocument = {
   matches: Match[];
   court_groups: CourtGroup[];
   origin_name: string;
+  afternoon_criteria?: string;
+  afternoon_matches?: Match[];
 };
 
 export function assembleArea(
@@ -549,14 +567,24 @@ export function assembleArea(
     );
   }
   const compare = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
-  matches.sort(
-    (a, b) =>
-      compare(a.date, b.date) ||
-      a.start - b.start ||
-      compare(a.branch_name, b.branch_name) ||
-      compare(a.court_name, b.court_name),
-  );
+  const order = (a: Match, b: Match) =>
+    compare(a.date, b.date) ||
+    a.start - b.start ||
+    a.end - b.end ||
+    compare(a.branch_name, b.branch_name) ||
+    compare(a.court_name, b.court_name);
+  matches.sort(order);
+  const afternoon =
+    area === "quan-2"
+      ? {}
+      : {
+          afternoon_criteria: AFTERNOON_CRITERIA,
+          afternoon_matches: scanned
+            .flatMap((item) => item.afternoonMatches)
+            .sort(order),
+        };
   return {
+    ...afternoon,
     status: "ok",
     criteria: CRITERIA[area],
     message: `Đã quét ${scanned.length} sân yêu thích.`,
