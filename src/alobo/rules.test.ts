@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { type Area, type Interval, searchDates, windows } from "./rules";
+import {
+  type Area,
+  afternoonWindows,
+  type Interval,
+  searchDates,
+  windows,
+} from "./rules";
 import fixtures from "./rules.fixtures.json";
 
 const now = new Date("2026-10-28T12:00:00+07:00");
@@ -103,6 +109,17 @@ describe("matches the Python watcher", () => {
     for (const item of fixtures.cases) {
       const actual = windows(
         item.area as Area,
+        item.day,
+        item.intervals as unknown as Interval[],
+        new Date(item.now),
+      );
+      expect(actual, JSON.stringify(item)).toEqual(item.expected);
+    }
+  });
+
+  it("returns the same afternoon windows for every recorded case", () => {
+    for (const item of fixtures.afternoon) {
+      const actual = afternoonWindows(
         item.day,
         item.intervals as unknown as Interval[],
         new Date(item.now),
